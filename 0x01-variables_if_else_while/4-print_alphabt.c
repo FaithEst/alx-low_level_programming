@@ -9,7 +9,7 @@
 int main(void)
 {
 char alphabets = 'a';
-while (alphabets < 'z')
+while (alphabets <= 'z')
 {
 if (alphabets != 'q' && alphabets != 'e')
 {
