@@ -40,18 +40,4 @@ _putchar((k % 10) + '0');
 }
 _putchar('\n');
 }
-// int row = 0, col = 0, product = 0;
-// while (row < 10)
-// {
-//     while (col < 10)
-//     {
-//         product = row * col;
-//         _putchar(product);
-//         _putchar(',');
-//         _putchar(' ');
-//     }
-//     _putchar('\n');
-//     col++;
-// }
-// row++;
 }
