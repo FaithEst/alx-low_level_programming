@@ -7,7 +7,8 @@
 
 /**
  * add  -  adds two integers
- * @i, @j - check the numbers
+ * @i: checks the number
+ * @j: checks the number
  * Return: returns the result.
  */
 int add(int i, int j)
