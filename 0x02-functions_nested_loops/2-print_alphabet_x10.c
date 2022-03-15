@@ -12,8 +12,8 @@
  */
 void print_alphabet_x10(void)
 {
-int count = 48;
-while (count < 58)
+int count = 0;
+while (count < 10)
 {
 char alphabet;
 for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
