@@ -12,16 +12,12 @@
  */
 int _islower(int c)
 {
-    char alphabet;
-    for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
-    {
-        if (alphabet)
-        {
-            return (1);
-        }
-        else
-        {
-            return (0);
-        }
-    }
+if (c >= 'a' && c <= 'z')
+{
+    return (1);
+}
+else
+{
+    return (0);
+}
 }
