@@ -17,18 +17,16 @@ if (n >= 98)
 {
 while (n > 98)
 {
-_putchar(n);
+printf("%d, ", n--);
+printf("%d\n", n);
 }
-n--;
-_putchar('\n');
 }
 else
 {
 while (n < 98)
 {
-_putchar(n);
+printf("%d, ", n++);
+printf("%d\n", n);
 }
-n++;
-_putchar('\n');
 }
 }
