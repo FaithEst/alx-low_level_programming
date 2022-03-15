@@ -20,6 +20,7 @@ while (count <= 9)
     {
     _putchar(alphabet);
     }
+    count++;
     _putchar('\n');
 }
 return;
