@@ -8,6 +8,7 @@
 /**
  * _abs  - computes the absolute value of an integer.
  * @n: checks the number
+ * Return: The absolute value of the integer
  */
 int _abs(int n)
 {
