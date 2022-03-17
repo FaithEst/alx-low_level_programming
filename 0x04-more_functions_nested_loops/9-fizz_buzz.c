@@ -17,7 +17,7 @@ else if (num % 3 == 0)
 else if (num % 5 == 0)
 {printf("Buzz\n"); }
 else
-{printf("%d", num); }
+{printf("%d\n", num); }
 }
 return (0);
 }
