@@ -7,10 +7,10 @@
  */
 void more_numbers(void)
 {
-int count = 0;
+int count = 0, num;
 while (count < 10)
 {
-for (int num = 0; num <= 14; num++)
+for (num = 0; num <= 14; num++)
 {
 _putchar(num + '0');
 }
