@@ -21,7 +21,7 @@ if (j == i)
 else if (j < i)
 {_putchar(' '); }
 }
-}
 _putchar('\n');
+}
 }    
 }
