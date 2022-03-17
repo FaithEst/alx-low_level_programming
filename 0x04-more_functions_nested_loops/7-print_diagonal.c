@@ -17,14 +17,13 @@ else
 {
 for (i = 0; i < n; i++)
 {
-for (j = 0; j < n; j++)
-{
-if (j == i)
-{_putchar('\\'); }
-else if (j < i)
-{_putchar(' '); }
-}
+for (j = 0; j < i; j++)
+{putchar(' '); }
+_putchar('\\');
+if (i == n - 1)
+continue;
 _putchar('\n');
 }
-}   
+}
+_putchar('\n');   
 }
