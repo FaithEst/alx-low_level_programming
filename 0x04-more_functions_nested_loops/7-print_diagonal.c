@@ -1,3 +1,7 @@
+/*
+ * File: 7-print_diagonal.c
+ * Auth: Brennan D Baraban
+ */
 #include "main.h"
 
 /**
@@ -7,11 +11,11 @@
  */
 void print_diagonal(int n)
 {
+int i,j;
 if (n <= 0)
 {_putchar('\n'); }
 else
 {
-int i,j;
 for (i = 0; i < n; i++)
 {
 for (j = 0; j < n; j++)
