@@ -1,10 +1,9 @@
 #include <stdio.h>
-#include <math.h>
 
 /**
  * print_triangle - finds and prints the largest prime factor of the number 612852475143
  * followed by a new line.
- * Return: 0 (success)
+ *  Return: Always 0.
  */
 int main(void)
 {
