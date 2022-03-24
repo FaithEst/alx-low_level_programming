@@ -11,19 +11,17 @@
 
 char *_strcat(char *dest, char *src)
 {
-    int len, len2 = 0, finalDest = 0;
+    int len = 0, finalDest = 0, i;
     
-    // length for destination string
-    while (dest[len2] != '\0')
+    while (dest[len] != '\0')
     {
-        len2++;
+        len++;
     }
-    // lenght after removing the null byte
-    finalDest = len2 - 1;
+    finalDest = len - 1;
      
-    for (len = 0; src[len] != '\0'; len++)
+    for (i = 0; src[i] != '\0'; i++)
     {
-         dest[finalDest] = src[len];
+         dest[finalDest] = src[i];
          finalDest++;
     }
     dest[finalDest] = '\0';
