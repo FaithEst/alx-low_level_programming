@@ -14,8 +14,8 @@ int main(int argc, char *argv[])
 
 	if (argc == 3)
 	{
-		n = atoi(argv[1]);
-		m = atoi(argv[2]);
+		n = atoi(argv[2]);
+		m = atoi(argv[3]);
 		product = n * m;
 		printf("%d\n", product);
 	}
