@@ -1,32 +1,46 @@
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 /**
- * main - adds positive numbers.
- * @argc: argument counter
- * @argv: argument vector
- * Return:  1 for error
- */
+  * main - Prints the sum of args positive numbers
+  * @argc: argument count
+  * @argv: argument vector
+  *
+  * Return: Always zero
+  */
 int main(int argc, char *argv[])
 {
-    int sum, i, num;
-	char *p;
-
-	sum = 0;
+	int i;
+	unsigned int k, sum = 0;
+	char *e;
 
 	if (argc > 1)
-		for (i = 1; argv[i]; i++)
+	{
+		for (i = 1; i < argc; i++)
 		{
-			num = strtol(argv[i], &p, 10);
-			if (!*p)
-				sum += num;
-			else
+			e = argv[i];
+
+			for (k = 0; k < strlen(e); k++)
 			{
-				printf("Error\n");
-				return (1);
+				if (e[k] < 48 || e[k] > 57)
+				{
+					printf("Error\n");
+					return (1);
+				}
 			}
+
+			sum += atoi(e);
+			e++;
 		}
 
-	printf("%d\n", sum);
+		printf("%d\n", sum);
+	}
+	else
+	{
+		printf("0\n");
+	}
+
 	return (0);
 }
