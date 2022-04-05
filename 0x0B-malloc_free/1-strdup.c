@@ -2,11 +2,10 @@
 #include "main.h"
 
 /**
- * create_array - creates an array of chars
- * and initializes it with a specific char
- * @size: size of the array to create
- * @c: char to initialize the array c
- * Return: pointer to the array (Success), NULL (Error)
+ * *_strdup - copies the string given as parameter
+ * @str: string to duplicate
+ *
+ * Return: pointer to the copied string (Success), NULL (Error)
  */
 char *_strdup(char *str)
 {
