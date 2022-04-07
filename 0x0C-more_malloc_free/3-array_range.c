@@ -13,17 +13,20 @@ int i;
 
 if (min > max)
 {
-    return (NULL);
+return (NULL);
 }
+
 p = malloc(sizeof(int) * (max - min + 1));
+
 if (p == NULL)
 {
-    return (NULL);
+return (NULL);
 }
+
 for (i = 0; min <= max; i++)
 {
-    p[i] = min;
-    min++;
+p[i] = min;
+min++;
 }
 return (p);
 }
