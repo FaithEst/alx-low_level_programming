@@ -15,6 +15,15 @@ unsigned int j = 0;
 unsigned int len1 = 0;
 unsigned int len2 = 0;
 
+if (s1 == NULL)
+{
+s1 = "";
+}
+
+if (s2 == NULL)
+{
+s2 = "";
+}
 while (s1 && s1[len1])
 {
 len1++;
