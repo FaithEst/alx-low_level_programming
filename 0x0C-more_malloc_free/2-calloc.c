@@ -29,12 +29,12 @@ char *p;
 
 if (nmemb == 0 || size == 0)
 {
-    return (NULL);
+return (NULL);
 }
 p = malloc(nmemb * size);
 if (p == NULL)
 {
-    return (NULL);
+return (NULL);
 }
 
 _memset(p, 0, nmemb * size);	/* sets mem pointed to by p to 0 */
