@@ -3,18 +3,19 @@
 
 /**
  * malloc_checked - allocates memory using malloc
- * @b: size of memory to calculate
- * Return pointer if SUCCESSFUL, 98 if FAILURE
+ * @b: number of bytes to allocate
+ * 
+ * Return pointer to the allocated memory, 98 if FAILURE
  */
 void *malloc_checked(unsigned int b)
 {
 void *p;
+
 p = malloc(b);
 
 if (p == NULL)
 {
 exit(98);
-}
-          
+}         
 return (p);
 }
