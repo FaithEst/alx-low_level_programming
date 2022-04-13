@@ -2,9 +2,8 @@
 
 /**
  * print_name - prints a name
- * @name: string name argument to print
- * @f: pointer to function
- * return: void
+ * @name: name to print
+ * @f: pointer to the printing function
  */
 void print_name(char *name, void (*f)(char *))
 {
