@@ -1,7 +1,7 @@
-#ifndef FUNC_HEADER
-#define FUNC_HEADER
+#ifndef FUNC_PTR
+#define FUNC_PTR
 
+#include <stdlib.h>
 void print_name(char *name, void (*f)(char *));
 
-#endif
-
+#endif 
