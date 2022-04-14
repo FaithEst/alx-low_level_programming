@@ -24,5 +24,8 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		else
 			printf("%d%c \n", count separator); 
 	}
+	va_end(list);
+
+	printf("\n");
 }
 
