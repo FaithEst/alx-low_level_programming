@@ -14,7 +14,7 @@ int sum_dlistint(dlistint_t *head)
 
 	ptr = head;
 
-	if (!head)
+	if (!ptr)
 		return (0);
 
 	while (ptr)
@@ -24,3 +24,4 @@ int sum_dlistint(dlistint_t *head)
 	}
 	return (sum);
 }
+
