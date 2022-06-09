@@ -5,17 +5,14 @@
  * of a dlistint_t linked list
  * @head: head pointernto the list
  *
- * Return: 0 if empty, otherwise return sum
+ * Return: sum of all integers in the list
  */
 int sum_dlistint(dlistint_t *head)
 {
-	const dlistint_t *ptr;
+	dlistint_t *ptr;
 	int sum = 0;
 
 	ptr = head;
-
-	if (!ptr)
-		return (0);
 
 	while (ptr)
 	{
